@@ -13,7 +13,7 @@ lr_model = pickle.load(open('model.pkl', 'rb'))
 
 def main():
     
-    st.title('STARTUP SUCESS PREDICTION')  
+    st.title('STARTUP SUCCESS PREDICTION')  
     
     label = {
         'Yes': 1,
