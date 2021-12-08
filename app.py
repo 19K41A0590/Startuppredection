@@ -88,10 +88,10 @@ def main():
         y_pred =  lr_model.predict(input_data)
         if(y_pred==1):
             st.success('Sucess')
-            st.write("kjsdhjfk")
+            st.write("The particular Entity can be incorporated and has greater prbability of success")
         else:
             st.error('Fail')
-            st.write("flhdsfjkaf")
+            st.write("The particualr Entity has greater probability to fail. ")
         
     
     
